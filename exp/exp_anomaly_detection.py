@@ -218,4 +218,4 @@ class Exp_Anomaly_Detection(Exp_Basic):
         f.write('\n')
         f.write('\n')
         f.close()
-        return
+        return {'ground_truth':gt, 'prediction':pred}
